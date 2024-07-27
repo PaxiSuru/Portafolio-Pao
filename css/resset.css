@@ -13,10 +13,14 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
+  --naranja: #FFA36B;
+  --naranja-pastel: #FFC7A5;
+  --naranja-oscuro: #D2605F;
+  --clarito: #FFF5CF;
+  --blanco: #FFFFFF;
+  --negro: #000000;
   /* Tipografía */
   --tipo-principal: "League Spartan", sans-serif;
-  --tipo-secundaria: Verdana;
 }
 
 /* Las adaptamos al modo oscuro */
@@ -148,6 +152,7 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+  background-color: var(--clarito);
   /* opcional */
   line-height: 1.4em;
   /* opcional */
