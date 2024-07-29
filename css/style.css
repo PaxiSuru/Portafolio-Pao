@@ -37,3 +37,54 @@
 .header-nav-bottom:hover {
     background-color: var(--naranja-pastel);
 }
+
+/* Hero */
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}
+.hero-wrapper{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: brown;
+}
+.hero-content{
+    padding: 24px;
+    background-color: darkcyan;
+}
+.hero-title{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    color: var(--naranja);
+    margin-bottom: 24px;
+    background-color:hotpink;
+}
+.hero-paragraph{
+    font-size: 19px;
+    line-height: 24px;
+    color: var(--negro);
+    margin-bottom: 24px;
+    background-color: coral;
+}
+.hero-button{
+    width: fit-content;
+    color: var(--blanco);
+    font-weight: 800;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: var(--naranja-oscuro)
+}
+.hero-button:hover {
+    background-color: var(--naranja-pastel);
+}
+.hero-profile{
+    background-color: magenta;
+}
+.hero-image{
+    background-color: orange;
+}
